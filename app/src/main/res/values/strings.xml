@@ -3,4 +3,6 @@
     <string name="menu1">menu1</string>
     <string name="item1">item1</string>
     <string name="item2">item2</string>
+    <string name="search">Search</string>
+    <string name="add_menu">ADD MENU</string>
 </resources>

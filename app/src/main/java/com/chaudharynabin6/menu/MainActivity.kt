@@ -1,5 +1,6 @@
 package com.chaudharynabin6.menu
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -18,10 +19,16 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
+    fun navigateToChangingMenuItemAtRuntime(){
+        val intent = Intent(this,ChangingMenuItemAtRuntime::class.java)
+        startActivity(intent)
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when(item.itemId){
             R.id.search -> {
                 Log.i("option menu item1","selected")
+                navigateToChangingMenuItemAtRuntime()
                 true
             }
             R.id.view -> {

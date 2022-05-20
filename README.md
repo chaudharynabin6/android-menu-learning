@@ -9,3 +9,10 @@ https://android-developers.googleblog.com/2012/01/say-goodbye-to-menu-button.htm
 
 ## app bar
 https://developer.android.com/training/appbar
+
+
+## navigation to another activity
+https://developer.android.com/training/basics/firstapp/starting-activity
+
+## changing menu at runtime
+https://medium.com/@ramkumarVR46/android-changing-menu-items-at-run-time-48970f0cf1b7

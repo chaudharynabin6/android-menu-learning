@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_baseline_smart_button_24.xml" value="0.2975" />
+        <entry key="app/src/main/res/layout/activity_changing_menu_item_at_runtime.xml" value="0.24791666666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1390625" />
+        <entry key="app/src/main/res/menu/changing_menu_item_at_runtime.xml" value="0.15364583333333334" />
         <entry key="app/src/main/res/menu/game_menu.xml" value="0.5" />
       </map>
     </option>
