@@ -14,6 +14,12 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
+            android:name=".multipleMenu.MultipleMenu1"
+            android:exported="false" />
+        <activity
+            android:name=".multipleMenu.MultipleMenu2"
+            android:exported="false" />
+        <activity
             android:name=".ChangingMenuItemAtRuntime"
             android:exported="false" />
         <activity

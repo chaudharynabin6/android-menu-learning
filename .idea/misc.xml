@@ -6,8 +6,11 @@
         <entry key="app/src/main/res/drawable/ic_baseline_smart_button_24.xml" value="0.2975" />
         <entry key="app/src/main/res/layout/activity_changing_menu_item_at_runtime.xml" value="0.24791666666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1390625" />
+        <entry key="app/src/main/res/layout/activity_multiple_menu1.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_multiple_menu2.xml" value="0.2791666666666667" />
         <entry key="app/src/main/res/menu/changing_menu_item_at_runtime.xml" value="0.15364583333333334" />
         <entry key="app/src/main/res/menu/game_menu.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/mutiple_menu.xml" value="0.15416666666666667" />
       </map>
     </option>
   </component>
