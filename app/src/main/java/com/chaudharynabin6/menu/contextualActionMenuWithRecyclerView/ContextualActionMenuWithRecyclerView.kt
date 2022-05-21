@@ -43,7 +43,7 @@ class ContextualActionMenuWithRecyclerView : AppCompatActivity() {
             id: Long,
             checked: Boolean
         ) {
-         
+
         }
 
 

@@ -14,39 +14,45 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
-            android:name=".contextualActionMenuWithRecyclerView.ContextualActionMenuWithRecyclerView"
-            android:exported="true" >
+            android:name=".contextualActionMenuWithRecyclerView.ContextualActionMenuWithListView"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<!--        <activity-->
+<!--            android:name=".contextualActionMenuWithRecyclerView.ContextualActionMenuWithRecyclerView"-->
+<!--            android:exported="false">-->
 
-        <activity
-            android:name=".contextualActionMenu.ContextualActionMenu"
-            android:exported="false" />
-        <activity
-            android:name=".contextualMenus.ContextualMenus"
-            android:exported="false" />
-        <activity
-            android:name=".multipleMenu.MultipleMenu1"
-            android:exported="false" />
-        <activity
-            android:name=".multipleMenu.MultipleMenu2"
-            android:exported="false" />
-        <activity
-            android:name=".ChangingMenuItemAtRuntime"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name=".contextualActionMenu.ContextualActionMenu"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".contextualMenus.ContextualMenus"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".multipleMenu.MultipleMenu1"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".multipleMenu.MultipleMenu2"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".ChangingMenuItemAtRuntime"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="false">-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-        </activity>
+<!--            &lt;!&ndash; <intent-filter> &ndash;&gt;-->
+<!--            &lt;!&ndash; <action android:name="android.intent.action.MAIN" /> &ndash;&gt;-->
+
+
+<!--            &lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;-->
+<!--            &lt;!&ndash; </intent-filter> &ndash;&gt;-->
+<!--        </activity>-->
     </application>
 
 </manifest>

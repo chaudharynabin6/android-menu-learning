@@ -41,3 +41,7 @@ https://github.com/mrisek/Contextual-Action-Mode-Kotlin
 ## multiple contextual action menu
 https://www.youtube.com/watch?v=v69ozl2Jfoo
 
+you cannot you contextual action menu in recycler view directly
+
+## list View 
+https://guides.codepath.com/android/Using-a-BaseAdapter-with-ListView
