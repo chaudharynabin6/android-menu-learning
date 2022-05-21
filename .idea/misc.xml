@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_baseline_smart_button_24.xml" value="0.2975" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.253" />
         <entry key="app/src/main/res/layout/activity_changing_menu_item_at_runtime.xml" value="0.24791666666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1390625" />
         <entry key="app/src/main/res/layout/activity_multiple_menu1.xml" value="0.22" />
