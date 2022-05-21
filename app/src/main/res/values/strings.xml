@@ -7,4 +7,8 @@
     <string name="add_menu">ADD MENU</string>
     <string name="navigate_to_menu_1">Navigate to Menu 1</string>
     <string name="navigate_to_menu_2">Navigate to Menu 2</string>
+    <string name="navigate_to_contextual_menus">Navigate to Contextual Menus</string>
+    <string name="button_contextual_menu">Button Contextual Menu</string>
+    <string name="item3">item3</string>
+    <string name="item4">item4</string>
 </resources>

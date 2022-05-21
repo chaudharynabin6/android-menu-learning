@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
+            android:name=".contextualMenus.ContextualMenus"
+            android:exported="false" />
+        <activity
             android:name=".multipleMenu.MultipleMenu1"
             android:exported="false" />
         <activity
