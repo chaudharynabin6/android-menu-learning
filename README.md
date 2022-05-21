@@ -35,3 +35,7 @@ https://medium.com/swlh/how-to-use-view-binding-in-recyclerview-adapter-f818b96c
 ## option menu
 https://www.geeksforgeeks.org/how-to-create-options-menu-for-recyclerview-in-android-using-kotlin/
 
+## single contextual action menu
+https://github.com/mrisek/Contextual-Action-Mode-Kotlin
+
+

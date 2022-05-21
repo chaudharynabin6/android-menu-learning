@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import com.chaudharynabin6.menu.contextualActionMenu.ContextualActionMenu
 import com.chaudharynabin6.menu.contextualMenus.ContextualMenus
 import com.chaudharynabin6.menu.multipleMenu.MultipleMenu1
 import com.chaudharynabin6.menu.multipleMenu.MultipleMenu2
@@ -58,6 +59,11 @@ class MainActivity : AppCompatActivity() {
 
     fun navigateToContextualMenu(view: View) {
         val intent = Intent(this,ContextualMenus::class.java)
+        startActivity(intent)
+    }
+
+    fun navigateToContextualActionMenu(view: View){
+        val intent = Intent(this,ContextualActionMenu::class.java)
         startActivity(intent)
     }
 }

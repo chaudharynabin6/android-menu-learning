@@ -13,10 +13,22 @@
         android:layout_height="wrap_content"
         android:text="@string/navigate_to_contextual_menus"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/navigate_to_contextual_action_menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:onClick="navigateToContextualMenu"
+        />
+    <Button
+        android:id="@+id/navigate_to_contextual_action_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/navigate_to_contextual_action_menu"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        android:onClick="navigateToContextualActionMenu"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

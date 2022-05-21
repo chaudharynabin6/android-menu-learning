@@ -7,12 +7,14 @@
         <entry key="app/src/main/res/drawable/ic_baseline_smart_button_24.xml" value="0.2975" />
         <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.253" />
         <entry key="app/src/main/res/layout/activity_changing_menu_item_at_runtime.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/activity_contextual_action_menu.xml" value="0.24739583333333334" />
         <entry key="app/src/main/res/layout/activity_contextual_menus.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_multiple_menu1.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_multiple_menu2.xml" value="0.2791666666666667" />
         <entry key="app/src/main/res/layout/contextual_menu_items.xml" value="0.24635416666666668" />
         <entry key="app/src/main/res/menu/changing_menu_item_at_runtime.xml" value="0.15364583333333334" />
+        <entry key="app/src/main/res/menu/contextual_action_menu.xml" value="0.24739583333333334" />
         <entry key="app/src/main/res/menu/contextual_menu.xml" value="0.24635416666666668" />
         <entry key="app/src/main/res/menu/game_menu.xml" value="0.5" />
         <entry key="app/src/main/res/menu/mutiple_menu.xml" value="0.15416666666666667" />
