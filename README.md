@@ -38,4 +38,6 @@ https://www.geeksforgeeks.org/how-to-create-options-menu-for-recyclerview-in-and
 ## single contextual action menu
 https://github.com/mrisek/Contextual-Action-Mode-Kotlin
 
+## multiple contextual action menu
+https://www.youtube.com/watch?v=v69ozl2Jfoo
 
