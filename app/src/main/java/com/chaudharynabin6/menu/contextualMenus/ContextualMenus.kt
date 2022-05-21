@@ -60,17 +60,34 @@ class ContextualMenus : AppCompatActivity() {
 //        this.menuInflater.inflate(R.menu.contextual_menu,menu)
 //    }
 
+//    you can only implement onContextItemSelected here
     override fun onContextItemSelected(item: MenuItem): Boolean {
 
-        return when (item.itemId) {
-            R.id.item1 -> {
-               Log.e("CONTEXT MENU SELECTED","item1 ${adapter.id.toString()}")
-
+        return when (item.title.toString()) {
+//            R.id.item1 -> {
+//               Log.e("CONTEXT MENU SELECTED","item1 ${adapter.id.toString()}")
+//
+//                true
+//            }
+//            R.id.item2 -> {
+//                Log.e("CONTEXT MENU SELECTED","item2 ${adapter.id.toString()}")
+//
+//                true
+//            }
+//            1 -> {
+//                Log.e("CONTEXT MENU SELECTED","${item.title}")
+//                true
+//            }
+            "R1" -> {
+                Log.e("CONTEXT MENU SELECTED", "${item.title}")
                 true
             }
-            R.id.item2 -> {
-                Log.e("CONTEXT MENU SELECTED","item2 ${adapter.id.toString()}")
-
+            "R2" -> {
+                Log.e("CONTEXT MENU SELECTED", "${item.title}")
+                true
+            }
+            "R3" ->{
+                Log.e("CONTEXT MENU SELECTED", "${item.title}")
                 true
             }
             else -> super.onContextItemSelected(item)
