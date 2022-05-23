@@ -29,7 +29,7 @@ class ContextualActionMenuWithListView : AppCompatActivity() {
             return when (item?.title.toString()) {
 
                 "delete" -> {
-                    adapter.deleteItem(selectionPosition)
+                    adapter.deleteItem()
                     mode?.finish()
                     true
                 }
@@ -43,7 +43,8 @@ class ContextualActionMenuWithListView : AppCompatActivity() {
                     note.isSelected = false
                 }
                 adapter.notifyDataSetChanged()
-                selectionPosition.clear()
+
+
         }
 
         override fun onItemCheckedStateChanged(
@@ -53,17 +54,18 @@ class ContextualActionMenuWithListView : AppCompatActivity() {
             checked: Boolean
         ) {
             Log.e("CHECKED STATE CHANGED", "$position $id $checked+")
-            selectionPosition.add(Selection(id, checked))
-            adapter.itemSelected(selectionPosition)
+            adapter.notes[position].isSelected = checked
+            adapter.notifyDataSetChanged()
+
         }
 
 
     }
 
-    data class Selection(var id: Long, var isSelected: Boolean)
 
-    private val selectionPosition = mutableSetOf<Selection>()
-    private val list = mutableListOf<Note>(
+
+
+    private val list = mutableListOf(
         Note("item 1", 1,false),
         Note("item 2", 2,false),
         Note("item 3", 3,false),

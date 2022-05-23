@@ -36,42 +36,21 @@ class NoteListView(val context: Activity, var notes: MutableList<Note>) : BaseAd
         return inflater.root
     }
 
-    private fun getSelectedItem(selection: MutableSet<ContextualActionMenuWithListView.Selection>): MutableSet<Note> {
-        val mutableSet = mutableSetOf<Note>()
-        for (item in selection) {
-            if (item.isSelected) {
-                val note = notes.find {
-                    it.id == item.id.toInt()
-                }
-                note?.apply {
-                    mutableSet.add(note)
-                }
+
+
+    fun deleteItem() {
+        val toRemoveNotes = mutableListOf<Note>()
+        for (note in notes){
+            if(note.isSelected){
+                toRemoveNotes.add(note)
             }
         }
-        return mutableSet
-    }
-
-    fun deleteItem(selection: MutableSet<ContextualActionMenuWithListView.Selection>) {
-
-        val selectedNotes = getSelectedItem(selection)
-        for (note in selectedNotes) {
-            notes.remove(note)
-        }
+        notes.removeAll(toRemoveNotes)
         notifyDataSetChanged()
 
     }
 
-    fun itemSelected(selection: MutableSet<ContextualActionMenuWithListView.Selection>) {
-        for (item in selection) {
 
-                val noteIndex = notes.indexOfFirst {
-                    it.id == item.id.toInt()
-                }
-                notes[noteIndex].isSelected = item.isSelected
-            }
-            notifyDataSetChanged()
-
-    }
 
 
 
