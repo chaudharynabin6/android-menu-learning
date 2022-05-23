@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
-            android:name=".contextualActionMenuWithRecyclerView.ContextualActionMenuWithListView"
+            android:name=".popUpMenuWithRecyclerView.PopUpMenuWithRecyclerView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,10 +23,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".contextualActionMenuWithRecyclerView.ContextualActionMenuWithListView"
+            android:exported="true" />
+        <activity
             android:name=".contextualActionMenuWithRecyclerView.ContextualActionMenuWithRecyclerView"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".contextualActionMenu.ContextualActionMenu"
             android:exported="false" />
