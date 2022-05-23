@@ -45,3 +45,9 @@ you cannot you contextual action menu in recycler view directly
 
 ## list View 
 https://guides.codepath.com/android/Using-a-BaseAdapter-with-ListView
+
+## pop up menu
+https://www.youtube.com/watch?v=hKyjb4b19YM
+
+## interface are very powerful
+https://stackoverflow.com/questions/12142255/call-activity-method-from-adapter
