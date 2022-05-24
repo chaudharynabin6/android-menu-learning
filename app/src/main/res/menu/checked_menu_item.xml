@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item android:id="@+id/red"
+            android:title="red"
+            tools:ignore="HardcodedText" />
+        <item android:id="@+id/blue"
+            android:title="blue"
+            tools:ignore="HardcodedText" />
+    </group>
+</menu>

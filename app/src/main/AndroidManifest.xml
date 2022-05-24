@@ -14,14 +14,16 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
-            android:name=".menuGroup.MenuGroup"
+            android:name=".CheckedMenuItem"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".menuGroup.MenuGroup"
+            android:exported="false" />
         <activity
             android:name=".popUpMenuWithRecyclerView.PopUpMenuWithRecyclerView"
             android:exported="false" />
