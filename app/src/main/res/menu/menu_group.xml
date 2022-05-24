@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- complex menu item to set text style -->
+    <item
+        android:id="@+id/text_style"
+        android:icon="@drawable/ic_palette_black_36dp"
+        android:orderInCategory="1"
+        android:title="@string/text_style"
+        app:showAsAction="ifRoom|withText">
+        <!-- text style menu's sub menu start from here -->
+        <menu>
+            <!-- first group (text color) of text style sub menu -->
+            <group
+                android:id="@+id/text_color_group"
+                android:checkableBehavior="single">
+                <!-- text color group's items -->
+                <item
+                    android:checkable="false"
+                    android:enabled="false"
+                    android:title="@string/select_text_color" />
+                <item
+                    android:id="@+id/red"
+                    android:icon="@drawable/ic_palette_red_36dp"
+                    android:title="@string/red"
+
+                    />
+                <item
+                    android:id="@+id/green"
+                    android:icon="@drawable/ic_palette_green_36dp"
+                    android:title="@string/green"
+
+                    />
+                <item
+                    android:id="@+id/blue"
+                    android:icon="@drawable/ic_palette_blue_36dp"
+                    android:title="@string/blue"
+
+                    />
+            </group>
+            <!-- second group (text size) of text style sub menu -->
+            <group
+                android:id="@+id/text_size_group"
+                android:checkableBehavior="single">
+                <!-- text size group's items -->
+                <item
+                    android:checkable="false"
+                    android:enabled="false"
+                    android:title="@string/select_text_size" />
+                <item
+                    android:id="@+id/large_text"
+                    android:icon="@drawable/ic_text_fields_black_36dp"
+                    android:title="@string/large"
+
+                    />
+                <item
+                    android:id="@+id/medium_text"
+                    android:icon="@drawable/ic_text_fields_black_36dp"
+                    android:title="@string/medium"
+
+                    />
+                <item
+                    android:id="@+id/small_text"
+                    android:icon="@drawable/ic_text_fields_black_36dp"
+                    android:title="@string/small"
+
+                    />
+            </group>
+        </menu>
+    </item>
+    <!-- bold text menu item -->
+    <item
+        android:id="@+id/text_bold"
+        android:icon="@drawable/ic_text_fields_black_36dp"
+        android:orderInCategory="2"
+        android:title="@string/bold_text"
+        app:showAsAction="always|withText" />
+    <!-- normal text menu item -->
+    <item
+        android:id="@+id/text_normal"
+        android:icon="@drawable/ic_text_fields_black_36dp"
+        android:orderInCategory="3"
+        android:title="@string/normal_text"
+        app:showAsAction="never|withText" />
+</menu>
